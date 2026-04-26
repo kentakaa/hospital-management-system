@@ -12,7 +12,7 @@ A comprehensive web-based application designed to manage hospital operations eff
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** PHP
 - **Database:** MySQL
-- **Server:** XAMPP/WAM
+- **Server:** XAMPP
 
 ## 📋 Prerequisites
 To run this project locally, you need:
