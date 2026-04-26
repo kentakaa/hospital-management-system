@@ -483,7 +483,7 @@ transform: translateY(-7px);
                         <a href="patient_login.php" class="dropdown-item">Patient Login</a>
                         <a href="donor.php" class="dropdown-item">Blood Donor Login</a>
                         <a href="donor.php" class="dropdown-item">Blood Recipient Login</a>
-                        <a href="staff_login.php" class="dropdown-item">Staff Login</a>jh
+                        <a href="staff_login.php" class="dropdown-item">Staff Login</a>
                         
                     </div>
                 </div>

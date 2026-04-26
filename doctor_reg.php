@@ -65,7 +65,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($errors)) {
 
         $conn->begin_transaction();
-
         try {
             $hashed = password_hash($pass, PASSWORD_DEFAULT);
 

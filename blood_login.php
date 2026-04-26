@@ -208,7 +208,7 @@ ini_set('display_errors', 1);
                 echo "<div class='error-message'>❌ Invalid Email/Password OR Account Deactivated!</div>";
             }
         }
-        ?>
+        ?>  
     </div>
 
     <!-- Password Toggle Script -->

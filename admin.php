@@ -511,13 +511,13 @@ $page = $_GET['page'] ?? 'donors';
                             <td><span class='status-".strtolower($row['status'])."'>".htmlspecialchars(ucfirst($row['status']))."</span></td>
                             <td>";
                     
-                    // Action Buttons for Admin (Only if status is pending)
+                    
                     if (strtolower($row['status']) === 'pending') {
                         echo "<a href='appointment_approval.php?id={$row['appointment_id']}&action=approve' class='btn approve'>Approve</a>";
-                        // Admin can cancel/reject directly without a reason form (unlike doctor)
+            
                         echo "<a href='appointment_approval.php?id={$row['appointment_id']}&action=reject' class='btn deactivate'>Reject</a>"; 
                     } else {
-                        echo "—"; // Status fixed (Confirmed/Cancelled)
+                        echo "—"; 
                     }
                     
                     echo      "</td></tr>";
