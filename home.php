@@ -551,7 +551,7 @@ transform: translateY(-7px);
 
             <div class="chairman">
                 <img src="assests/chairman.jpg" alt="Chairman's Photo" style="max-width: 100%;">
-                <p class="bhn">Doremon</p>
+                <p class="bhn">!??</p>
             </div>
         </div>
     </section>
